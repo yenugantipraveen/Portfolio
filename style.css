@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+    padding-top: 70px;
+}
+
+body {
+    background: linear-gradient(-45deg, #0f172a, #1e293b, #0d1b2a, #1b263b);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    color: white;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(25,135,84,0.3), transparent 70%);
+    top: -200px;
+    right: -200px;
+    z-index: -1;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+section {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+}
+
+.text-success {
+    color: #22c55e !important;
+}
+
+.hero-section {
+    padding: 20px 0 32px 0;   
+}
+
+.nav-link i {
+    margin-right: 6px;
+}
+
+.navbar-brand i {
+    margin-right: 6px;
+}
+
+.scroll-btn {
+    position: fixed;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #198754;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.scroll-btn:hover {
+    background: #157347;
+    transform: scale(1.1);
+}
+
+/* Top Button */
+#scrollTopBtn {
+    bottom: 90px;
+    display: none; /* hidden initially */
+}
+
+/* Bottom Button */
+.bottom-btn {
+    bottom: 30px;
+}
+
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid #198754;
+    box-shadow: 0 0 25px rgba(25,135,84,0.5);
+
+    display: block;
+    margin: 5px auto;   /* This centers it */
+}
+
+.role-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4ade80;
+}
+
+.resume-btn {
+    background: #198754;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-left: 15px;
+}
+
+.resume-btn:hover {
+    background: #157347;
+}
+
+
+.about-text {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+#about {
+    padding-bottom: 30px;
+}
+
+#education {
+    padding-top: 30px;
+}
+
+
+.education-card {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    background: rgba(25,135,84,0.3);
+    transform: translateY(-6px);
+}
+
+.skill-card {
+    background: rgba(255,255,255,0.08);
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-card img {
+    width: 50px;
+    margin-bottom: 8px;
+}
+
+.skill-card:hover {
+    background: rgba(25,135,84,0.3);
+}
+
+.project-card {
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: rgba(25,135,84,0.2);
+    transform: translateY(-6px);
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 500px;              /* adjust height here */
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Images */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;          /* keeps image proportional */
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Active Image */
+.slide.active {
+    opacity: 1;
+}
+
+/* Buttons */
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.prev { left: 15px; }
+.next { right: 15px; }
+
+.slider button:hover {
+    background: #198754;
+}
+
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.mail-link {
+    color: #4ade80;
+    text-decoration: none;
+}
+
+.social-links a {
+    font-size: 28px;
+    margin: 0 15px;
+    color: #198754;
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: white;
+    transform: translateY(-5px) scale(1.2);
+}
