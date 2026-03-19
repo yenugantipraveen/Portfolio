@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yenuganti Praveen - Java Full Stack Developer portfolio showcasing projects, skills and experience.">
+    <title>Yenuganti Praveen | Java Full Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+  <body>
+
+    <!-- ================= LOADER ================= -->
+    <div id="loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Portfolio Loading...</div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- ================= SCROLL PROGRESS ================= -->
+    <div id="scrollProgress"></div>
+
+    <!-- ================= BACKGROUND ================= -->
+    <div id="particles-js"></div>
+
+     <!-- ================= HEADER / NAVBAR ================= -->
+    <header>
+        <div class="logo">Yenuganti Praveen</div>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#academic">Academic</a>
+                <a href="#contact">Contact</a>
+                
+            </nav>
+
+            <!-- Resume Download -->
+            <a href="Resume.pdf" target="_blank" class="resume-btn">Resume</a>
+    </header>
+
+    <!-- ================= HOME SECTION ================= -->
+    <section id="home" class="hero">
+
+        <div class="hero-card">
+            
+            <div class="hero-text">
+                <h1  class="hero-name">Hi, I'm <span>Yenuganti Praveen</span></h1>
+                <h3 id="roleText" class="role-text"></h3>
+                <p>Passionate about building web applications using Java, SQL, and modern web technologies.</p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn-outline">Get In Touch</a>
+                </div>
+           </div>
+
+            <div class="hero-image">
+                <img src="Profile.jpg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+ <!-- ================= ABOUT SECTION ================= -->
+
+ <section id="about" class="section">
+    <h2>About Me</h2>
+
+    <div class="about-card">
+
+        <p>
+            I am a <strong>B.Tech graduate in Information Technology</strong> with a strong foundation in 
+            Java, SQL, and modern web development technologies. I am currently enhancing my skills in 
+            <strong>Full Stack Development</strong> at Naresh i Technologies.
+        </p>
+
+        <p>
+
+            Aspiring <strong>Java Full Stack Developer</strong> with strong knowledge of Java programming, 
+            JDBC, Servlets, JSP, database technologies like SQL and PL/SQL, and 
+            front-end technologies like HTML, CSS, and JavaScript. Seeking an entry-level role 
+            in a dynamic, learning-focused environment to effectively utilize my technical skills, 
+            gain hands-on project experience, and grow continuously as a professional.
+            
+        </p>
+
+        <p>
+            I enjoy building real-world applications and intelligent systems. My final year project — 
+            <strong>Automatic Recipe Recommendation System</strong> — reflects my interest in combining 
+            technology with practical problem-solving.
+        </p>
+
+        <p>
+            I am seeking an entry-level opportunity where I can apply my skills, gain hands-on experience, 
+            and grow as a software developer in a professional environment.
+        </p>
+
+    </div>
+ </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+ <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+
+    <!-- Frontend -->
+    <h3 class="skill-title">Frontend</h3>
+    <div class="skill-container">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><p>HTML</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><p>CSS</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"><p>Bootstrap</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><p>React JS</p></div>
+    </div>
+
+    <!-- Backend -->
+    <h3 class="skill-title">Backend</h3>
+    <div class="skill-container">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><p>Java</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot"><p>Spring Boot</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Microservices"><p>Microservices</p></div>
+    </div>
+
+    <!-- Database -->
+    <h3 class="skill-title">Database</h3>
+    <div class="skill-container">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="SQL"><p>SQL</p></div>
+        <div class="skill-card"><img src="PLSQL.png" alt="PL/SQL"><p>PL/SQL</p></div>
+    </div>
+
+    <!-- DevSecOps -->
+    <h3 class="skill-title">DevSecOps Tools</h3>
+    <div class="devsecops-grid">
+
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><p>Docker</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira"><p>Jira</p></div>
+        <div class="skill-card"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Chef_logo.svg" alt="Chef"><p>Chef</p></div>
+        <div class="skill-card"> <img src="slf4j.png" alt="SLF4J"><p>SLF4J</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><p>GitHub</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" alt="Gradle"><p>Gradle</p></div>
+
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="Maven"><p>Maven</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" alt="ELK"><p>ELK</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="Heroku"><p>Heroku</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="CloudWatch"><p>CloudWatch</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="Datadog"><p>Datadog</p></div>
+
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" alt="SonarQube"><p>SonarQube</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins"><p>Jenkins</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" alt="JUnit"><p>JUnit</p></div>
+        <div class="skill-card"><img src="mockito.png" alt="Mockito"><p>Mockito</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="JMeter"><p>JMeter</p></div>
+
+    </div>
+
+    <!-- Cloud -->
+    <h3 class="skill-title">Cloud</h3>
+    <div class="skill-container">
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"><p>AWS Basics</p></div>
+    </div>
+ </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+ <section id="projects" class="section project-highlight">
+
+    <h2>Projects</h2>
+
+    <!-- ===== Featured Project ===== -->
+    <h3 class="project-title">
+        Automatic Recipe Recommendation System
+    </h3>
+
+    <p class="project-subtitle">
+        AI-powered system recommending healthy recipes based on
+        user health status and dietary preferences.
+    </p>
+
+     <p class="tech">
+        <strong>Tech:</strong> HTML, CSS, JavaScript, Flowise, Mistral AI
+    </p>
+
+    <div class="project-slider">
+        <img src="home.jpeg" class="project-slide active">
+        <img src="Register.jpeg" class="project-slide">
+        <img src="login.jpeg" class="project-slide">
+        <img src="health.jpeg" class="project-slide">
+        <img src="diabates.jpeg" class="project-slide">
+        <img src="allergy.jpeg" class="project-slide">
+        <img src="flow.jpeg" class="project-slide">
+        <img src="mistralai.jpeg" class="project-slide">
+        <img src="chat.jpeg" class="project-slide">
+        <img src="ask.jpeg" class="project-slide">
+        <img src="ai.jpeg" class="project-slide">
+        <img src="chat1.jpeg" class="project-slide">
+        <img src="chat2.jpeg" class="project-slide">
+        <img src="chat3.jpeg" class="project-slide">
+
+        <button class="project-prev">❮</button>
+        <button class="project-next">❯</button>
+
+    </div>
+
+
+    <!-- ===== Other Projects ===== -->
+    <div class="projects-container">
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>Spring Boot Microservices</h3>
+            <p>REST APIs with Docker and CI/CD integration.</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio using HTML, CSS & JavaScript.</p>
+        </div>
+
+    </div>
+
+ </section> 
+
+ <!-- ================= ACADEMIC / EDUCATION ================= -->
+
+ <section id="academic" class="section">
+
+    <h2>Academic Journey</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>B.Tech – Information Technology</h3>
+                <p>KKR & KSR Institute of Technology & Sciences</p>
+                <span>2021 – 2025</span>
+                <strong>CGPA: 7.52</strong>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <i class="fa-solid fa-school"></i>
+                <h3>Intermediate (MPC)</h3>
+                <p>Board of Intermediate Education</p>
+                <span>2019 – 2021</span>
+                <strong>Score: 779</strong>
+            </div>
+        </div>
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <i class="fa-solid fa-book"></i>
+                <h3>SSC</h3>
+                <p>State Board of Secondary Education</p>
+                <span>2018 – 2019</span>
+                <strong>CGPA: 7.7</strong>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+ <!-- ================= CONTACT SECTION ================= -->
+ <section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <div class="contact-wrapper">
+
+        <!-- LEFT SIDE (Cards) -->
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Location</h3>
+                <p>Guntur, Andhra Pradesh</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:yourmail@gmail.com">yenugantipraveen7@gmail.com</a></p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p><a href="tel:+919876543210">+91 7569445909</a></p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE (Form) -->
+        <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required oninvalid="this.setCustomValidity('Please enter your name')" oninput="this.setCustomValidity('')">
+            <input type="email" name="email" placeholder="Your Email" required oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="this.setCustomValidity('')">
+            <textarea name="message" placeholder="Your Message" required oninvalid="this.setCustomValidity('Please write your message')" oninput="this.setCustomValidity('')"></textarea>
+            <button type="submit">Send Message</button>
+             
+            <!-- Messages -->
+            <div id="success-message" class="success-message"> ✔ Message sent successfully!</div>
+            <div id="fail-message" class="fail-message">❌ Failed to send message. Please try again.</div>
+        </form>
+    </div>
+ </section>
+
+  <!-- ================= SOCIAL MEDIA ================= -->
+  <div class="social-links">
+    <a href="mailto:yenugantipraveen7@gmail.com"><i class="fas fa-envelope"></i></a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/yenugantipraveen" target="_blank"><i class="fab fa-github"></i></a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/yenuganti-praveen-a23747257/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/yenuganti_praveen/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/profile.php?id=100036142903088" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+
+  <!-- Ultra Modern Scroll Button -->
+  <button id="scrollBtn" class="scroll-modern" aria-label="Scroll to top"></button>
+
+  <!-- ================= FOOTER ================= -->
+ <footer>
+    © 2026 Yenuganti Praveen | All Rights Reserved
+ </footer>
+
+  <!-- ================= EXTRA ELEMENTS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="script.js"></script>
+  
+ </body>
+</html>
